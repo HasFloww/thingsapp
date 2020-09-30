@@ -3,7 +3,6 @@ package com.testthings.fragment.presenters
 import com.testthings.fragment.DataManager
 import com.testthings.fragment.adapters.FirstData
 
-
 class SecondPresenter {
 
     private var listOfThings = ArrayList<FirstData>()
