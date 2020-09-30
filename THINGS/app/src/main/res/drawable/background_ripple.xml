@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/ripple_blue"
+    tools:targetApi="lollipop"> <!-- ripple effect color -->
+    <item>
+        <selector>
+            <item android:state_enabled="true">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/light_orange" /> <!-- background color -->
+                    <corners android:radius="@dimen/button_corner_radius" />
+                </shape>
+            </item>
+
+            <item android:state_enabled="false">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/greys_grey_20" />
+                    <corners android:radius="@dimen/button_corner_radius" />
+                </shape>
+            </item>
+        </selector>
+
+    </item>
+</ripple>
