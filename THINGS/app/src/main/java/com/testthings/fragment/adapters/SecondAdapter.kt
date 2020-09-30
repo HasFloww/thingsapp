@@ -3,7 +3,6 @@ package com.testthings.fragment.adapters
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.activity.OnBackPressedCallback
 import androidx.recyclerview.widget.RecyclerView
 import com.testthings.R
 import com.testthings.fragment.viewholders.*
