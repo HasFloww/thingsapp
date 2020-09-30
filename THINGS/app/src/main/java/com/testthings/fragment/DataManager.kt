@@ -2,7 +2,6 @@ package com.testthings.fragment
 
 import com.testthings.fragment.adapters.FirstData
 
-
 object DataManager {
     var allThings = ArrayList<FirstData>()
     var dataCallback: DataCallback? = null

@@ -5,7 +5,6 @@ import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ItemDecoration
 
-
 class StickyFooterItemDecoration : ItemDecoration() {
 
     override fun getItemOffsets(

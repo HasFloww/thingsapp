@@ -13,7 +13,6 @@ import com.testthings.fragment.adapters.SecondAdapter
 import com.testthings.fragment.presenters.SecondPresenter
 import kotlinx.android.synthetic.main.fragment_second.*
 
-
 class SecondFragment: Fragment() {
 
     private var secondAdapter: SecondAdapter? = null

@@ -5,7 +5,6 @@ import com.testthings.fragment.DataManager
 import com.testthings.fragment.adapters.FirstData
 import kotlinx.android.synthetic.main.first_item.view.*
 
-
 class FirstAdapterViewHolderFirst(private val mView: View) : FirstBaseViewHolder(mView) {
 
     override fun bind(data: FirstData) {
