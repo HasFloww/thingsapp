@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginStart="50dp"
+    android:layout_marginEnd="50dp"
+    android:layout_marginTop="18dp"
+    android:layout_gravity="center_horizontal"
+    android:clickable="true"
+    android:background="@drawable/background_ripple"
+    android:orientation="horizontal">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/thingsItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="11dp"
+        android:layout_marginStart="22dp"
+        android:textSize="@dimen/headline_font_size"
+        android:textStyle="bold"
+        android:textColor="@color/dark_grey"
+        android:text="@string/enter_things" />
+
+        <ImageView
+            android:id="@+id/rowSelectedImage"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:layout_marginEnd="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:src="@drawable/selected_tick" />
+
+</RelativeLayout>

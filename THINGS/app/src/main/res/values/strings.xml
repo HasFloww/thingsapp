@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">THINGS</string>
+    <string name="enter_things">Enter you own things here</string>
+    <string name="title">THINGS</string>
+    <string name="title_desc">The App</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="chosen_thing">Chosen Thing:</string>
+    <string name="enter_your_own_things">Enter Your Own Things</string>
+    <string name="not_enough_character">Not enough character</string>
+    <string name="test_full">0123456789</string>
+</resources>

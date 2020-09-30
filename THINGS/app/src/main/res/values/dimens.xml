@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headline_font_size">17sp</dimen>
+    <dimen name="body_font_size">15sp</dimen>
+    <dimen name="button_corner_radius">4dp</dimen>
+
+</resources>
